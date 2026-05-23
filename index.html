@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ПОРТФОЛИО</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div class="header__inner">
+                <a href="#hero" class="header-logo">Антон</a>
+                <nav class="header__nav">
+                    <a href="#hero" class="header__nav-link" aria-label="Главная">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="4"/>
+                    <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                    </svg>
+                </a>
+
+                <a href="#sections" class="header__nav-link" aria-label="Разделы">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="7" height="7" rx="1.5"/>
+                    <rect x="14" y="3" width="7" height="7" rx="1.5"/>
+                    <rect x="3" y="14" width="7" height="7" rx="1.5"/>
+                    <rect x="14" y="14" width="7" height="7" rx="1.5"/>
+                    </svg>
+                </a>
+
+                <a href="#contact" class="header__nav-link" aria-label="Контакты">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 16.5a2.5 2.5 0 0 1-2.5 2.5H5.5A2.5 2.5 0 0 1 3 16.5v-9A2.5 2.5 0 0 1 5.5 5h13A2.5 2.5 0 0 1 21 7.5v9z"/>
+                    <polyline points="3 7 12 13 21 7"/>
+                    </svg>
+                </a>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero" class="hero">
+            <img src="./public/hero__img.jpg" alt="Photo" class="hero__bg" aria-hidden="true" />
+            <div class="hero__overlay"></div>
+
+            <div class="hero__content">
+                <span class="hero__tag">Web-developer</span>
+                <h1 class="hero__title">Junior+ Web-разработчик</h1>
+                <p class="hero__subtitle">
+                    Высшее образование в лингвистике.<br>
+                    Прошёл переквалификацию в IT.<br>
+                    Vue.js · JavaScript · HTML/CSS · node.js
+                </p>
+                <a href="#sections" class="hero__cta">Смотреть работы</a>
+            </div>
+
+            <a href="#sections" class="hero__scroll-hint" aria-label="Вниз">
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+               <line x1="12" y1="4" x2="12" y2="20"/>
+               <polyline points="6 14 12 20 18 14"/>
+               </svg>
+            </a>
+        </section>
+
+        <div id="sections" class="sections-snake">
+
+            <article class="snake-item snake-item--right">
+                <div class="snake-item__card">
+                    <div class="snake-item__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="4"/>
+                        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                        </svg>
+                    </div>
+                    <h2 class="snake-item__title">Обо мне</h2>
+                    <p class="snake-item__preview">
+                        Web-developer. Работаю с Vue.js, пишу адаптивные интерфейсы, опираюсь на системный подход.
+                    </p>
+                    <button class="snake-item__btn" data-modal="about">Подробнее</button>
+                </div>
+                <div class="snake-item__line" aria-hidden="true"></div>
+            </article>
+
+            <article class="snake-item snake-item--left">
+                <div class="snake-item__line" aria-hidden="true"></div>
+                <div class="snake-item__card">
+                    <div class="snake-item__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12 M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+                        </svg>
+                    </div>
+                    <h2 class="snake-item__title">Подход к работе & AI</h2>
+                    <p class="snake-item__preview">
+                        Системный подход, разбор задачи по частям...
+                    </p>
+                    <button class="snake-item__btn" data-modal="approach">Подробнее</button>
+                </div>
+            </article>
+
+            <article class="snake-item snake-item--right">
+                <div class="snake-item__card">
+                    <div class="snake-item__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2"/>
+                        <polyline points="8 21 12 17 16 21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h2 class="snake-item__title">Проекты</h2>
+                    <p class="snake-item__preview">Kinoscope App, Spotify Clone, Workout Tracker...</p>
+                    <button class="snake-item__btn" data-modal="projects">Подробнее</button>
+                </div>
+                <div class="snake-item__line" aria-hidden="true"></div>
+            </article>
+
+            <article class="snake-item snake-item--left">
+                <div class="snake-item__line" aria-hidden="true"></div>
+                <div class="snake-item__card">
+                    <div class="snake-item__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/>
+                        <path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/>
+                        </svg>
+                    </div>
+                    <h2 class="snake-item__title">Сертификаты и образование</h2>
+                    <p class="snake-item__preview">
+                        Курсы, профильное образование...
+                    </p>
+                    <button class="snake-item__btn" data-modal="education">Подробнее</button>
+                </div>
+            </article>
+        </div>
+        <footer id="contact" class="footer">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <h2 class="footer__title">Контакты</h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-list__item">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/>
+                            <path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/>
+                            </svg>
+                            <a href="mailto:tkachenkoa2003@gmail.com">E-mail</a>
+                        </li>
+
+                        <li class="contacts-list__item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                            c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77
+                            5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0
+                            C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77
+                            a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7
+                            A3.37 3.37 0 0 0 9 18.13V22"/>
+                            </svg>
+                            <a href="https://github.com/cwoland" target="_blank" rel="noopener">GitHub</a>
+                        </li>
+
+                        <li class="contacts-list__item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07
+                            19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67
+                            A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72
+                            12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91
+                            a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45
+                            12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:+79173347900">Позвонить</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="footer__form-wrap">
+                <h3 class="footer__form-title">Написать мне</h3>
+
+                <form id="contact-form" class="contact-form" novalidate>
+
+                    <div class="contact-form__field">
+                        <label for="f-name">Имя *</label>
+                        <input type="text" id="f-name" name="name" placeholder="Как вас зовут?" required />
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label for="f-phone">Телефон *</label>
+                        <input type="tel" id="f-phone" name="phone" placeholder="+7-XXX-XXX-XXXX" required />
+                     </div>
+
+                    <div class="contact-form__field">
+                        <label for="f-email">E-mail *</label>
+                        <input type="email" id="f-email" name="email" placeholder="ваша@почта.com" required />
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label for="f-comment">Комментарий</label>
+                        <textarea id="f-comment" name="comment" rows="4" placeholder="Напишите что-нибудь..."></textarea>
+                    </div>
+
+                    <button type="submit" id="submit-btn" class="contact-form__submit">Отправить</button>
+
+                    <div id="form-message" class="form-message" style="display:none;" role="alert"></div>
+                </form>
+            </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 Антон.<br>
+                Сделано с ☕ и Claude.</p>
+            </div>
+        </footer>
+
+        <div id="modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+            <div class="modal-window">
+                <button id="modal-close" class="modal-close" aria-label="Закрыть">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
