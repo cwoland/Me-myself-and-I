@@ -7,7 +7,7 @@ const modalContent = {
         <p>Junior+ Web-Developer. Работаю с Vue.js, HTML/CSS и библиотеками, JavaScript/TypeScript.</p>
         <p>Получил высшее образование в лингвистике, переводчик с английского, французского и испанского. Прошёл переквалификацию в IT. 
         Интересуюсь языками, дизайном, историей, программированием, обучаюсь самостоятельно и быстро осваиваю новый стек.
-        <p><strong>Нынешний стек:</strong> Vue 3, React, JavaScript ES6+, HTML5, CSS3, node.js/Express, Git, GitHub, Figma, Claude, Copilot, Gemini.</p>
+        <p><strong>Нынешний стек:</strong> Vue 3, React, JavaScript ES6+, HTML5, CSS3, node.js/Express, Axios, Dexie, MongoDB, Git, GitHub, Figma, Claude, Copilot, Gemini.</p>
         <p><strong>Направления:</strong> SPA, адаптивная и семантическая верстка, UI/UX-компоненты.</p>
         `
     },
@@ -30,7 +30,7 @@ const modalContent = {
           <a href="https://cwoland.github.io/Portfolio/Musik/dist/index.html#/"><strong>Посмотреть</strong></a></li>
           <li><strong>Workout Log</strong> - Приложение-трекер тренировок, реализованное без использования фреймворков. 
           Записывает тренировки, упражнения и веса, расчитывает 1ПМ, подбирает программу и позволяет создавать свою программу. Отслеживает прогресс тренировок.
-          <a href="https://cwoland.github.io/Portfolio/IronLog/index.html/"><strong>Посмотреть</strong></a></li>
+          <a href="https://iron-log-pied.vercel.app/#"><strong>Посмотреть</strong></a></li>
           <li><strong>Semantic</strong> - Приложение для изучения языков по курсам, музыке, текстам и фильмам. Функционал выбора языка, запросы к API, интеграция IndexedDB.
           <a href="https://semantic-topaz.vercel.app/"><strong>Посмотреть</strong></a></li>
           </ul>
