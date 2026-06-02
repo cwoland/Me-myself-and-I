@@ -30,7 +30,7 @@ const modalContent = {
           <a href="https://cwoland.github.io/Portfolio/Musik/dist/index.html#/"><strong>Посмотреть</strong></a></li>
           <li><strong>Workout Log</strong> - Приложение-трекер тренировок, реализованное без использования фреймворков. 
           Записывает тренировки, упражнения и веса, расчитывает 1ПМ, подбирает программу и позволяет создавать свою программу. Отслеживает прогресс тренировок.
-          <a href="https://iron-log-pied.vercel.app/#"><strong>Посмотреть</strong></a></li>
+          <a href="https://ironlog-red-tau.vercel.app/"><strong>Посмотреть</strong></a></li>
           <li><strong>Semantic</strong> - Приложение для изучения языков по курсам, музыке, текстам и фильмам. Функционал выбора языка, запросы к API, интеграция IndexedDB.
           <a href="https://semantic-topaz.vercel.app/"><strong>Посмотреть</strong></a></li>
           </ul>
